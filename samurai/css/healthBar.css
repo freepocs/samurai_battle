@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+#tube {
+    position: absolute;
+    top: 100px;
+    left: 1080px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 500px;
+}
+
+#bar {
+    height: 100%;
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#liquid {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(5, 168, 27);
+    border-radius: 30px 30px 30px 30px;
+    transition: 800ms ease;
+}
